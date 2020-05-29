@@ -1,6 +1,6 @@
 # Node Global Scripts
 
-This repository contains scripts that can be globally installed with node. These are scripts that I (the author) did not want to have published through NPM.
+This repository contains scripts that can be globally installed with node. These are scripts that I did not want to have published through NPM.
 
 Each script folder has run `npm init`, so it has access to anything that _does_ exist on NPM.
 
