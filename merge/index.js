@@ -27,8 +27,11 @@ program
   .name("merge")
   .usage("<remote branch to pull> [options]")
   .version("1.1.0")
-  .option("-n, --new <name>", "Name the new branch")
-  .option("-c, --checkout <name>", "checkout to a branch other than current");
+  .option("-n, --new <name>", "name the new branch")
+  .option(
+    "-c, --checkout <name>",
+    "checkout to an existing local branch other than current"
+  );
 
 program.parse(process.argv);
 
