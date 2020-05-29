@@ -12,4 +12,4 @@ The only other setup that needs to happen is to add a `"bin": "index.js",` line 
 
 Once those things have all been done, you can write your node script to do whatever you want. To install globally, run `npm i -g .` inside the folder that contains your `package.json` (EG inside `merge/`). That will allow you to run the command from anywhere else in your terminal.
 
-The `merge/`, script is named `merge` inside of it's `package.json`, so that is the command that should be run in the terminal (`merge <branch name>`). If the package was renamed to `marge`, that is what would need to be ran in the terminal after re-installing globally.
+The `merge/` folder's script is named `merge` inside of it's `package.json`, so that is the command that should be run in the terminal (`merge <branch name>`). If the package was renamed to `marge`, that is what would need to be ran in the terminal after re-installing globally.
