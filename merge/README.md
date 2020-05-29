@@ -15,6 +15,7 @@ The default use-case of this script is `merge <remote branch name>`, and will up
 
 There are a few additional options that can be passed in:
 
-- `help` lists all the available commands
-- `new <name>` allows the user to switch to a new local branch after pulling the code from the first specified branch
-- `checkout <name>` allows the user to check out to an existing local branch 
+- `-h, --help` lists all the available commands
+- `-v, --version` list the current version of the script
+- `-n, --new <name>` allows the user to switch to a new local branch after pulling the code from the first specified branch
+- `-c, --checkout <name>` allows the user to check out to an existing local branch 
