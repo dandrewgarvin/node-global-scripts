@@ -1,1 +1,1 @@
-echo "hello world"
+while true; do date; sleep 1; done
