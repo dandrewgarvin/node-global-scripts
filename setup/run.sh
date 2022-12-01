@@ -10,4 +10,6 @@ echo "Congratulations! Closing Process..."
 
 afplay /tmp/success.mp3
 
+say "Your machine is ready for use, sir"
+
 echo "Goodbye"
