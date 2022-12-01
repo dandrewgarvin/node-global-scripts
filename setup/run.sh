@@ -4,7 +4,7 @@ sleep 1
 
 echo "Machine setup complete..."
 
-curl scripts.garvin.dev/setup/zelda-chest-sound.mp3 -L > /tmp/success.mp3
+curl scripts.garvin.dev/setup/zelda-chest-sound.mp3 -L -s > /tmp/success.mp3
 
 echo "Congratulations! Closing Process..."
 
