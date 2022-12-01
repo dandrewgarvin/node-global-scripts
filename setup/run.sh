@@ -8,7 +8,7 @@ curl scripts.garvin.dev/setup/zelda-chest-sound.mp3 -L -s > /tmp/success.mp3
 
 echo "Congratulations! Closing Process..."
 
-osascript -e 'set Volume 5' && afplay /tmp/success.mp3
+osascript -e 'set Volume 3' && afplay /tmp/success.mp3
 
 say "Your machine is ready for use, sir"
 
