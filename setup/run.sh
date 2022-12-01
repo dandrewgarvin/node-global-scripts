@@ -1,6 +1,6 @@
 echo "Setting machine up..."
 
-wait 1
+sleep 1
 
 echo "Machine setup complete..."
 
