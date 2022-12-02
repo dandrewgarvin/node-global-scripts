@@ -6,6 +6,7 @@ DOMAIN="https://scripts.garvin.dev/setup"
 while getopts ":l" opt; do
   case $opt in
     l)
+      echo "Running in local mode\n\n"
       DOMAIN="file://$PWD" # The "file://" prefix is required so that we can continue to use `curl` throughout this script
       ;;
     \?)
