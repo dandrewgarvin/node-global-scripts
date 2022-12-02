@@ -2,7 +2,9 @@ DIRECTORY=$(echo $@ | cut -c 8-)
 
 echo -e '\n\nInstalling Browsers...'
 
-brew bundle --file="$DIRECTORY/Brewfile"
+curl -sL $DIRECTORY/Brewfile -o /tmp/Brewfile
+
+brew bundle --file=/tmp/Brewfile
 
 # Install Ghostlab
 curl https://www.vanamco.com/Ghostlab3.dmg -sL

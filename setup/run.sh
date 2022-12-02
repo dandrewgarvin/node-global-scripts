@@ -5,10 +5,6 @@ DOMAIN="https://scripts.garvin.dev/setup"
 
 run_script() {
   DIRECTORY="$1"
-
-  if ($LOCAL); then
-    DIRECTORY=$(echo $DIRECTORY | cut -c 8-)
-  fi
   
   # strip file from path so module can use `path` variable to use local Brewfile
   DIRECTORY=$(echo $DIRECTORY | rev | cut -d'/' -f2- | rev)
