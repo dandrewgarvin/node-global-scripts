@@ -5,7 +5,7 @@ This script is intended to be ran to set up a new mac computer with a single scr
 ## Running Remotely
 
 ```
-curl scripts.garvin.dev/setup/run.sh -L | bash
+curl scripts.garvin.dev/setup/run.sh -sL | bash
 ```
 
 ## Running Locally
