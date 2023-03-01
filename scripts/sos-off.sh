@@ -1,0 +1,1 @@
+curl -sL https://maker.ifttt.com/trigger/disable_sos_light/json/with/key/jNePKaYujRG4zXaglUUfrOyUtPOfDgjQ-lt5-tlBqny
